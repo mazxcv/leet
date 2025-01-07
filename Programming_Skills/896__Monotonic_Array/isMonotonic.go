@@ -25,7 +25,7 @@ func isMonotonic(nums []int) bool {
 			if nums[i] < nums[i-1] {
 				return false
 			}
-		case -1:
+		default:
 			if nums[i] > nums[i-1] {
 				return false
 			}
